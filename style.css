@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 :root {
-    --primary_color: #ffffff;
+    --primary_color: rgb(182, 141, 7);
     --secondary_color: #f0f0f0;
     --primary_textcolor: #000000;
     --secondary_textcolor: #000000;
@@ -49,13 +49,18 @@ a {
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
+.heading {
+
+    color: red;
+}
+
 .main {
     height: 500px;
     background: var(--secondary_color);
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
-/* .footer {
+.footer {
     height: 200px;
     background: var(--primary_color);
-} */
+}
