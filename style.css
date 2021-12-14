@@ -44,7 +44,7 @@ a {
 .nav {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-self: flex-start;
     column-gap: 15px;
     height: 50px;
     background: var(--primary_color);
