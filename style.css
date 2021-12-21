@@ -76,7 +76,7 @@ a {
 
 .main {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     justify-self: first baseline;
     height: 1024vh;
